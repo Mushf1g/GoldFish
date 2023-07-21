@@ -1,0 +1,240 @@
+.backG_2a{
+    background-color: #2a2a2a;
+}
+.infoo{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+    padding: 2rem 1rem;
+    align-items: center;
+    align-self: center;
+}
+.infoo div{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+.infoo input {
+    width: 30vw;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 14px;
+    color: #929292;
+    padding: 1.2rem;
+    background: #FBFAFA;
+    border: 1px solid #F2F2F2;
+    border-radius: 9px;
+}
+.infoo a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.infoo i{
+    color: white;
+    font-size: 2rem;
+}
+
+.navA{
+    padding: 1.6rem 1rem;
+}
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+.navA a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #2A2A2A;
+
+}
+.navA i{
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+.nav__icons{
+    display: flex;
+    gap: 1.1rem;
+    color: #F9A43F;
+}
+.navA a:hover{
+    color: #F9A43F;
+    transition: 0.1s;
+}
+
+
+footer{
+    background-color: #2A2A2A;
+    padding: 5.9rem 0 3.5rem;
+}
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 8rem;
+}
+.footer__top-1 img{
+    width: 15rem;
+    height: 3.6rem;
+}
+.footer__top-1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 1.6rem;
+    max-width: 214px;
+}
+.footer__top-2 h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer__top-2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    max-width: 151px;
+}
+.footer__top-3 h4,
+.footer__top-3 a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer__top-4 h4,
+.footer__top-4 a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer__top-5{
+    text-align: right;
+}
+.footer__top-5 button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 22px;
+    color: #F9A43F;
+    background: transparent;
+    border: 1px solid #F9A43F;
+    border-radius: 9px;
+    padding: 1.5rem 3rem;
+    margin-bottom: 2.6rem;
+}
+.footer__top-5 button:hover{
+    background: #F9A43F;
+    color: #FFFFFF;
+}
+.footer__top-5 p a{
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+.footer__top-5 i{
+    color: #F9A43F;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.footer__border{
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.footer__bottom-1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.44);
+}
+.footer__bottom-1 a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.44);
+}
+.footer__bottom-3{
+    text-align: right;
+}
+.footer__bottom-3 p,
+.footer__bottom-3 a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.44);
+}
+.footer__bottom-3 a{
+    text-decoration: underline;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
